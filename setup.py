@@ -9,6 +9,7 @@ setup(
     version="1.0.0",
     author="Nuclear Instruments",
     packages=find_packages(where="src"),
+    package_dir={"": "src"},
     python_requires=">=3.7, <4",
-    install_requires=["websocket"],
+    install_requires=["websocket-client"],
 )
